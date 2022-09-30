@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>form 연습 2</title>
+</head>
+
+<body>
+    <h1>form 연습 2</h1>
+    <form action="#" method="post">
+        <table border="2">
+            <caption>실습 예제</caption>
+            <thead>
+                <tr>
+                    <th><label for="school">학교</label></th>
+                    <td><input type="text" name="search" id="school_search"></td>
+                    <td colspan="2"><button type="submit">학교 찾기</button></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>담당학년</th>
+                    <td colspan="3">
+                        <select name="school_year">
+                            <option value="-">-</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <span>학년</span>
+                        <select name="clss">
+                            <option value="-">-</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+
+                        </select>
+                        <span>반</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>학교전화</th>
+                    <td><select name="school_number">
+                            <option value="local_number">지역번호</option>
+                            <option value="local_number">02</option>
+                            <option value="local_number">031</option>
+                            <option value="local_number">032</option>
+                        </select>
+                    </td>
+                    <td><span>-</span></td>
+                    <td><input type="text" name="school_number" id="school_number"></td>
+                </tr>
+                <th>휴대전화</th>
+                <td><span>010</span></td>
+                <td><span>-</span></td>
+                <td><input type="text" name="phone_number" id="phone_number"></td>
+                </tr>
+                <tr>
+                    <th rowspan="3">교사인증</th>
+                    <td colspan="3"><input type="file" name="certified_file" id="certified"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><span>* 교사 인증은 교육 행정 정보시스템 로그인 한 다음 화면 캡쳐해서 첨부해 주시면 됩니다.</span></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><span><a href="#" target="_blank">[{&lt;자세한 방법 보기&gt;]}</a></span></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th rowspan="2">간단한 인사 및 소개</th>
+                    <td colspan="3"><textarea name="text_box" id="introduction" cols="20" rows="2"
+                            placeholder="이곳에 작성하세요"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><span>간단한 인사 및 소개를 남겨 주시면 교내 사랑방 게시판에 자동 등록되어 집니다.</span></td>
+                </tr>
+
+            </tfoot>
+        </table>
+    </form>
+</body>
+
+</html>
