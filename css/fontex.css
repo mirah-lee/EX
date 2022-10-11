@@ -37,12 +37,13 @@ h3{
     color: red;
 }
 
-.reserve{
-    text-decoration: line-through;
+.reserve:link{
     background-color: orange;
+    text-decoration: none;
  }
  .reserve:hover{
     background-color: violet;
+    text-decoration: line-through;
  }
 
  .season > .spring , .fall {
