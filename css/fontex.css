@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body{
+    color: rgb(71, 71, 71);
+    font-size: 18px;
+}
+
+h1{
+    background-color: black;
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.7;
+}
+
+h2{
+    color:#008c8c;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    background-color: #008c8c;
+    color: #fff;
+    text-align: right;
+}
+.intro{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.mainInfo{
+    background-color: #ebe7e7;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.discount{
+    font-size: 15px;
+    color: red;
+}
+
+.reserve{
+    text-decoration: line-through;
+    background-color: orange;
+ }
+ .reserve:hover{
+    background-color: violet;
+ }
+
+ .season > .spring , .fall {
+    background-color: orange;
+ }
+
+ .ps{
+    color: red;
+    font-size: 14px;
+ }
