@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.container{
+    background-color: #fff;
+    margin: 14px auto;
+}
+.container h1{
+    background-color: orange;
+    margin: 0;
+}
+.container h1 img{
+    vertical-align: top;
+}
+.container h2{
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 8px;
+    letter-spacing: 2px;
+}
+
+/* 이미지 이후 아래 여백이 생긴건 인라인 요소의 특성때문 vertical-align로 해결가능  */
+.container .box{
+    border: 1px solid #000;
+    border-top: none;
+    background-color: orange;
+    /* overflow: hidden; 마진상쇄 현상을 해결하기 위한 부모 요소에서의 방법 */
+    padding: 25px;
+}
+
+.container .box h3{
+    /* margin : 0; */
+    /* 
+    마진상쇄 현상으로 부모와 자식의 mrgin-top 값 중에 큰 값이 적용되어 여백이 생김 */
+    color: yellow;
+}
+.container .box strong {
+    color: red;
+    font-size: 25px;
+}
+.container .box address{
+    color: teal;
+    font-style: normal;
+    font-weight: bolder;
+    margin-top: 14px;
+    font-size: 24px;
+}
